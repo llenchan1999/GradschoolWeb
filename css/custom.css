@@ -1,0 +1,288 @@
+@font-face{
+    font-family: OrpheusB;
+    src: url(../fonts/Orpheus_pro/Orpheus\ Pro\ Bold.otf);
+}
+@font-face{
+    font-family: twcen;
+    src: url(../fonts/tw-cen-mt-std/TwCenClassMTStd.otf);
+}
+@font-face{
+    font-family: twcenr;
+    src: url(../fonts/tw-cen-mt-std/TwCenClassMTStd-Regular.otf);
+}
+@font-face{
+    font-family: twcenl;
+    src: url(../fonts/tw-cen-mt-std/TwCenMTStd-Light.otf);
+}
+@font-face{
+    font-family: twcenitalic;
+    src: url(../fonts/tw-cen-mt-std/TwCenMTStd-Italic.otf);
+}
+.twcenl{
+    font-family: twcenl;
+}
+.twcenitalic{
+    font-family: twcenitalic;
+}
+.ofont{
+    font-family: OrpheusB;
+}
+.twcenr{
+    font-family: twcenr;
+}
+.twcen{
+    font-family: twcen;
+}
+/* Mobile first queries */
+/* applies to ALL widths */
+.container{
+    
+}
+.headder{
+    padding: 50px 0 550px 0; background-image: url();
+    background-size: cover;
+}
+.breakr{
+    padding: 50px 0 250px 0; background-image: url(../imgs/samplebckgrnd.jpg);
+    background-size: cover;
+}
+
+.himeji{
+    padding: 50px 0 0 0; 
+    
+}
+.himejipic{
+    background-image: url(../imgs/himejiblur.jpg);
+    background-size: cover;
+}
+.torri{
+    padding: 50px 0 0 0; 
+    
+}
+.torripic{
+    
+    background-size: cover;
+  
+
+}
+.mtfuji{
+    padding: 50px 0 0 0; 
+    
+}
+.mtfujipic{
+    background-image: url(../imgs/samplebckgrnd.jpg);
+    background-size: cover;
+}
+
+.logo{
+    font-weight: 600;
+    color: black;
+    
+}
+.nav {
+    text-align: right;
+
+}
+
+.button {background-color:
+     rgba(255,255,255,.5);
+}
+.button:hover {
+    background-color: rgba(255,255,255,.3); 
+}
+.action {
+    text-align: center;
+   
+    
+    color: black;
+}
+.action h1 {
+    margin: 0;
+}
+.action h2 {
+    margin: 0 0 20px 0;
+}
+
+.margin_top{
+    margin-top: 30px;
+}
+.margin_topp{
+    margin-top: 110px;
+}
+.margin_bot{
+    margin-bottom: 30px;
+}
+.align_j{
+    text-align: justify;
+}
+.align_c{
+    text-align: center;
+}
+.align_r{
+    text-align: right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+.right{
+    display: block;
+    margin-left: auto;
+}
+.left{
+    display: block;
+    margin-right:auto ;
+}
+
+.logo{
+    width: 70px;
+    text-align: left;
+}
+ 
+.width{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.width2{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxshadow{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.212),
+            10px 10px 15px rgba(70,70,70,0.12);
+}
+.boxshadowh{
+    box-shadow: 10px 10px 15px rgba(255,255,255,0.5),
+            10px 10px 15px rgba(70,70,70,0.12);
+}
+.pright{
+    padding-right: 30px;
+    padding-left: 30x;
+   
+}
+.pleft{
+    padding-left: 5px;
+}
+.boxshadowin{
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+           inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+.boxshadowh:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  }
+.boxshadowl:hover{
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.corevalue{
+    background-color: rgb(0, 225, 255);
+    padding: 50px 0 50px 0; background-image: url(../imgs/wisdom_blur.png);
+}
+.top{
+    background-image: url(../imgs/cube_background.png);
+}
+
+table {
+    
+    border-collapse: collapse;
+    width: 200%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+  }
+td{
+    
+}
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+
+div{
+    transition: all ease 0.2s;
+}
+.transi{
+    transition: all ease 0.2s;
+}
+
+.navbck{
+    background-color: aqua;
+}
+.fsize_xxs{
+    font-size: xx-small;
+}
+.pad_top{
+    padding-top: 20px;
+}
+.pad_bot{
+    padding-bottom: 20px;
+}
+
+.bordernone{
+    padding: 0;
+    border: none;
+    background: none;
+}
+hr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.footer{
+    background-color: rgba(135, 163, 150, 0.438);
+}
+.cr{
+    
+    background-color: rgba(135, 163, 150, 0.438);
+}
+.smol{
+    height: auto;
+    width: 50px;
+    
+}
+.fontsmol{
+    font-size: larger;
+}
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+  
+}
+
+/* Larger than tablet */
+
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+  
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+  
+}
+
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+@media (min-width: 1200px) {
+
+}
